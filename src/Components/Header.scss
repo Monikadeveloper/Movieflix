@@ -1,0 +1,27 @@
+.header {
+  height: 100px;
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  align-items: center;
+  padding: 3 rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+
+  > img {
+    height: 80%;
+    background-color: black;
+  }
+
+  > div {
+    border: 1 px solid red;
+    width: 100%;
+    margin-left: 4vmax;
+    
+  }
+
+  > svg {
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}
